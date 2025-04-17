@@ -67,7 +67,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-3">
               {/* Login Button dengan animasi baru */}
               <a 
-              href="https://portal.palvis.my.id/" 
+              href="https://portal.stagingerazorre.my.id/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group relative inline-flex items-center overflow-hidden rounded-full border-2 border-green-500 px-5 py-2 focus:outline-none focus:ring active:bg-green-50"
@@ -117,7 +117,7 @@ export default function Navbar() {
               ))}
               <div className="pt-4 flex flex-col space-y-3">
                 <Link
-                  href="https://portal.palvis.my.id/"
+                  href="https://portal.stagingerazorre.my.id/"
                   className="flex items-center justify-center space-x-2 px-4 py-2 rounded-full border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white transition-all duration-300"
                   onClick={() => setIsOpen(false)}
                 >
