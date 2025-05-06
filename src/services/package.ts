@@ -1,6 +1,6 @@
 import { PackageResponse } from '@/types/package';
 
-const BASE_URL = 'http://localhost:5000/api';
+const BASE_URL = 'https://api.grasindotravel.id/api';
 
 class PackageService {
   async getPackages(): Promise<PackageResponse> {
